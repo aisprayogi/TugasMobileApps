@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#FFF"
+                android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/imgBgLogin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bghome"
+        />
+
+
+
+    <!-- Child linear layout with horizontal orientation -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/imgBgLogin"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="139.9dp"
+            android:layout_marginTop="34dp"
+            android:src="@drawable/fotodinil"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="48.7dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="55dp"
+            android:layout_marginTop="40.3dp"
+            android:background="@drawable/bg_ed_grey"
+            android:gravity="center"
+            android:text="Dinil Yoviethra"
+            android:textColor="#b3767575"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="48.7dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="55dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bg_ed_grey"
+            android:gravity="center"
+            android:text="16 November 1996"
+            android:textColor="#b3767575"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="48.7dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="55dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bg_ed_grey"
+            android:gravity="center"
+            android:text="Jalan Karya Gg.Wonogiri No.8"
+            android:textColor="#b3767575"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="48.7dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="55dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bg_ed_grey"
+            android:gravity="center"
+            android:text="+62821 6551 5096"
+            android:textColor="#b3767575"/>
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
